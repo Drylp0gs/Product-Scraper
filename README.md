@@ -64,6 +64,17 @@ multiple pages using the next-page link selector, maximum page limit, and custom
   --max-pages 5 \
   --delay 2.5
   
-CLI OptionsArgumentDescriptionDefaulturlTarget product listing URL (required)—-o, --outputOutput CSV filenameproducts.csv--cardCSS selector for individual product card containersAutomatic--nameCSS selector for product title/nameAutomatic--priceCSS selector for product priceAutomatic--skuCSS selector for product SKU/identifierAutomatic--categoryCSS selector for product categoryAutomatic--availabilityCSS selector for stock statusAutomatic--nextCSS selector for the next page linkNone--max-pagesMaximum listing pages to visit1--delayDelay in seconds between page requests2.0--timeoutHTTP request timeout in seconds20.0Ethical Scraping & NoticeThis script does not bypass logins, CAPTCHAs, paywalls, or anti-bot protections. It does not execute JavaScript.Always verify that you are authorized to scrape target websites.Respect site terms of service and robots.txt guidelines.Use responsible --delay parameters to avoid overloading web servers.
+CLI OptionsArgumentDescriptionDefaulturlTarget product listing URL (required)
+—-o, --outputOutput CSV filenameproducts.csv
+--cardCSS selector for individual product card containersAutomatic
+--nameCSS selector for product title/nameAutomatic
+--priceCSS selector for product priceAutomatic
+--skuCSS selector for product SKU/identifierAutomatic
+--categoryCSS selector for product categoryAutomatic
+--availabilityCSS selector for stock statusAutomatic
+--nextCSS selector for the next page linkNone
+--max-pagesMaximum listing pages to visit1
+--delayDelay in seconds between page requests2.0
+--timeoutHTTP request timeout in seconds20.0
 
 # LicenseThis project is open-source and available under the MIT License.
