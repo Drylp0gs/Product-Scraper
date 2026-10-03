@@ -27,9 +27,7 @@ It automatically attempts to parse structured `JSON-LD` metadata first. If unava
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Drylp0gs/product-data-scraper.git](https://github.com/YOUR-USERNAME/product-data-scraper.git)
-   cd product-data-scraper
-
+   git clone [https://github.com/Drylp0gs/product-data-scraper.git
 
 # Linux/macOS
 python3 -m venv venv
