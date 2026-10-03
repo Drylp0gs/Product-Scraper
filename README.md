@@ -1,3 +1,11 @@
+# Product Data Scraper
+
+A flexible Python web scraper designed to extract product details (name, category, SKU, price, availability, and URL) from e-commerce listing pages and save them to CSV.
+
+It automatically attempts to parse structured `JSON-LD` metadata first. If unavailable, it falls back to configurable CSS selectors to parse product card elements.
+
+---
+
 ## Features
 
 - **JSON-LD Support:** Automatically extracts schema-compliant product data without manual CSS selectors.
@@ -19,5 +27,5 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/product-data-scraper.git](https://github.com/YOUR-USERNAME/product-data-scraper.git)
+   git clone [https://github.com/Drylp0gs/product-data-scraper.git](https://github.com/YOUR-USERNAME/product-data-scraper.git)
    cd product-data-scraper
